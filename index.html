@@ -7,6 +7,23 @@
     <title>Vite + TS</title>
   </head>
   <body>
+    <div>
+      <input
+        id="openai_key"
+        placeholder="Enter your OpenAI API Key"
+        type="password"
+        >
+    </div>
+    <br />
+    <textarea
+      id="prompt"
+      placeholder="Enter a prompt"
+      style="width: 99%;"
+      rows=5
+    ></textarea>
+    <br>
+    <button id="submit">Submit</button>
+
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
